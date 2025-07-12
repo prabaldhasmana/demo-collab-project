@@ -1,0 +1,52 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #222222;
+}
+.home {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 14px;
+}
+.header-center {
+  font-size: large;
+  padding: 5px 20px;
+  background-color: bisque;
+  border-radius: 14px;
+}
+.header-right {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+.header-right span {
+  background-color: bisque;
+  padding: 5px;
+  border-radius: 14px;
+  font-size: small;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+}
+.skills-section{
+    display: flex;
+    flex-direction: row;
+    background-color: plum;
+    width: 100%;
+    height: 200px;
+}
