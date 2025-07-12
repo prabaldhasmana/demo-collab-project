@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .header {
@@ -19,14 +20,23 @@ body {
   background-color: black;
   color: white;
   padding: 5px 10px;
-  border-radius: 14px;
+  border-radius: 12px;
+}
+.home:hover {
+  background-color: bisque;
+  color: black;
+  border-bottom: 5px solid red;
 }
 .header-center {
   font-size: large;
   padding: 5px 20px;
   background-color: bisque;
-  border-radius: 14px;
+  border-radius: 12px;
 }
+.header-center:hover {
+  border-bottom: 5px solid red;
+}
+
 .header-right {
   display: flex;
   flex-direction: row;
@@ -36,17 +46,55 @@ body {
 .header-right span {
   background-color: bisque;
   padding: 5px;
-  border-radius: 14px;
+  border-radius: 12px;
   font-size: small;
 }
-.main{
-    height: 100vh;
-    width: 100%;
+.header-right span:hover {
+  border-bottom: 5px solid red;
 }
-.skills-section{
-    display: flex;
-    flex-direction: row;
-    background-color: plum;
-    width: 100%;
-    height: 200px;
+.main {
+  height: 100vh;
+  width: 100%;
+  padding: 10px 10%;
+  background-color: rgb(179, 166, 166);
+}
+.skillsHeading {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: large;
+  margin-bottom: 10px;
+}
+.skillsHeading span {
+    border-bottom: 5px solid red;
+}
+.skills-section {
+  display: flex;
+  flex-direction: row;
+  background-color: #222222;
+  width: 100%;
+  border-radius: 12px;
+  padding: 40px 0px;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+}
+.skillsText {
+  height: 40px;
+  width: 100px;
+  background-color: gray;
+  border-radius: 10px;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.skillsText:hover {
+  background-color: rgba(207, 106, 106, 0.929);
+  transition: 0.3ms;
+  border-bottom: 5px solid purple;
+}
+.projects-section{
+    background-color: #222222;
 }
