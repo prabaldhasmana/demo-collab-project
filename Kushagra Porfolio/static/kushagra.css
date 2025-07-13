@@ -1,8 +1,10 @@
+
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
+
 body{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -14,6 +16,7 @@ body{
 
     display: flex;
     flex-direction: column;
+
     gap: 80px;   
 }
 .titleDiscription{
@@ -26,6 +29,8 @@ body{
     padding-top: 100px;
     padding-left: 100px;
 }
+
+
 .title{
     font-size: xx-large;
 }
@@ -33,11 +38,15 @@ body{
     color: orange;
 }
 .discriptionContainer{
+
     display: flex;
     flex-direction: row;
 
     gap: 20px;
 }
+
+
+
 .underline{
     color: orange;
 }
@@ -58,6 +67,7 @@ body{
     border: 0px;
 
 }
+
 .link{
     color: #A3C9F9;
     text-decoration: none;
@@ -65,6 +75,7 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
+
 .link:hover{
     color: white;
 
@@ -80,12 +91,16 @@ body{
     background-color: #eab308			;
 
 
+
     border-bottom-right-radius: 100px;
     border-top-right-radius: 100px;
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
     text-decoration: none;
+
+
+
   
 
     
