@@ -1,83 +1,95 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
-body{
+
+body {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.mainConatiner{
+
+.mainConatiner {
     width: 100%;
     height: 100vh;
     background-color: rgb(34, 98, 216);
 
     display: flex;
     flex-direction: column;
-    gap: 80px;   
+    gap: 80px;
 }
-.titleDiscription{
 
-}
-.titleContainer{
+.titleDiscription {}
+
+.titleContainer {
     display: flex;
     flex-direction: row;
 
     padding-top: 100px;
     padding-left: 100px;
 }
-.title{
+
+.title {
     font-size: xx-large;
 }
-.dot{
+
+.dot {
     color: orange;
 }
-.discriptionContainer{
+
+.discriptionContainer {
     display: flex;
     flex-direction: row;
 
     gap: 20px;
 }
-.underline{
+
+.underline {
     color: orange;
 }
-.TypesOfProjects{
+
+.TypesOfProjects {
     width: 100%;
     height: 100px;
-    background-color: #4A90E2	;
+    background-color: #4A90E2;
 
     display: flex;
     flex-direction: row;
-    
+
     justify-content: space-evenly
 }
-.TypesOfProject{
+
+.TypesOfProject {
     padding: 10px;
     background-color: transparent;
 
     border: 0px;
 
 }
-.link{
+
+.link {
     color: #A3C9F9;
     text-decoration: none;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
-.link:hover{
+
+.link:hover {
     color: white;
 
 }
-.backContainer{
+
+.backContainer {
     padding-top: 50px;
     width: 100%;
 }
-.back{
+
+.back {
 
     border: 0px;
-    padding: 10px 20px ;
-    background-color: #eab308			;
+    padding: 10px 20px;
+    background-color: #eab308;
 
 
     border-bottom-right-radius: 100px;
@@ -86,11 +98,12 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
     text-decoration: none;
-  
 
-    
+
+
 }
-.back:hover{
+
+.back:hover {
     background-color: #fef08a;
     cursor: pointer;
 
