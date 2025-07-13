@@ -1,46 +1,48 @@
-
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 
-
 body{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.mainConatiner{
+
+.mainConatiner {
     width: 100%;
     height: fit-content;
     background-color: rgb(34, 98, 216);
 
     display: flex;
     flex-direction: column;
-
-
     gap: 80px;   
 }
-.titleDiscription{
 
+.titleDiscription{
+    gap: 80px;
 }
-.titleContainer{
+
+.titleDiscription {}
+
+.titleContainer {
     display: flex;
     flex-direction: row;
 
     padding-top: 100px;
     padding-left: 15%;
-
+  
+    align-items: center;
+}
 
 .title{
     font-size: xx-large;
-
 }
-
 
 .dot{
     color: orange;
 }
+
 .discriptionContainer{
     display: flex;
     flex-direction: row;
@@ -54,25 +56,27 @@ body{
      border-bottom: 1px solid orange;
     /* background-color: white; */
 }
+
 .underline{
     color: orange;
 }
+
 .TypesOfProjects{
     width: 100%;
     height: 100px;
-    background-color: #4A90E2	;
+    background-color: #4A90E2;
 
     display: flex;
     flex-direction: row;
-    
+
     justify-content: space-evenly
 }
-.TypesOfProject{
+
+.TypesOfProject {
     padding: 10px;
     background-color: transparent;
 
     border: 0px;
-
 }
 
 .link{
@@ -80,16 +84,17 @@ body{
     text-decoration: none;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 }
+
 .link:hover{
     color: white;
-
 }
+
 .choosen{
     color: white;
 }
-.projects{
+
+.projects {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -126,16 +131,17 @@ body{
 
     display: flex;
     flex-direction: column;
-
-    
+  
     align-items: center;
     justify-content: center;
 }
+
 .line{
-    width: 2px; 
-    height: 100%; 
+    width: 2px;
+    height: 100%;
     background-color: orange;
 }
+
 .projectContainer{
     height: 100%;
     /* background-color: blueviolet; */
@@ -143,20 +149,15 @@ body{
     display: flex;
     flex-direction: row;
 
-    
     align-items: center;
     justify-content: center;
-
-    
-
-    
-
 }
+
 .ProjectLink{
     text-decoration: none;
     color: white;
-
 }
+
 .circleContainer{
     width: 100%;
     /* background-color: white; */
@@ -164,6 +165,7 @@ body{
     padding-left: 105px;
 
 }
+
 .circle{
     width: 10px;
     height: 10px;
@@ -172,15 +174,16 @@ body{
     border-radius: 100px;
 
 }
+
 .backContainer{
     padding-top: 50px;
     width: 100%;
 }
-.back{
 
+.back{
     border: 0px;
-    padding: 10px 20px ;
-    background-color: #eab308			;
+    padding: 10px 20px;
+    background-color: #eab308;
 
 
     border-bottom-right-radius: 100px;
@@ -189,23 +192,15 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
     text-decoration: none;
-
-
-
-  
-
-    
 }
+
 .back:hover{
     background-color: #fef08a;
     cursor: pointer;
-
-
-
 }
 
-@media screen and (max-width: 400px) {
-    .projects {
+@media screen and (max-width: 400px){
+    .projects{
         display: flex;
         flex-direction: column;
 
@@ -215,15 +210,11 @@ body{
 
     }
 
-    .link {
+    .link{
         font-size: 15px;
     }
 
-    .title {
-        font-size: 40px;
-    }
-
-    .titleDiscription {
+    .titleDiscription{
         font-size: 20px;
         display: flex;
         flex-direction: column;
