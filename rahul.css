@@ -174,3 +174,60 @@ body {
   border-radius: 12px;
   border-bottom: 5px solid purple;
 }
+
+@media screen and (max-width: 380px) {
+  .header {
+    padding: 5px;
+    justify-content: space-between;
+  }
+
+  .home:hover {
+    border-bottom: 3px solid red;
+
+  }
+
+
+  .header-center {
+    padding: 5px;
+    font-size: small;
+  }
+
+  .header-center:hover {
+    border-bottom: 3px solid red;
+  }
+
+  .main {
+    padding: 5px;
+  }
+
+  .skills-section {
+    padding: 10%;
+  }
+
+  .skillsText {
+    font-size: small;
+    height: 25px;
+    width: 60px;
+  }
+
+  .skillsText:hover {
+    border-bottom: 3px solid purple;
+  }
+
+  .projects {
+    padding: 2px;
+  }
+
+  .project {
+    font-size: small;
+  }
+
+  .project p:hover {
+
+    border-bottom: 3px solid purple;
+  }
+
+  .header-right span:hover {
+    border-bottom: 3px solid red;
+  }
+}
